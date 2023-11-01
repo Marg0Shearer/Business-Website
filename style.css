@@ -1,0 +1,124 @@
+html {
+    font-size: 18px;
+}
+body {
+    margin: 0;
+    font-family: 'Black Ops One'; 
+    color: #FF78F1; 
+}
+header {
+    background-color: #204DB7; 
+    padding: 1rem;
+    font-size: 1rem;
+}
+header nav ul {
+    padding-left: 0;
+    list-style: none;
+    margin: 0;
+}
+header nav ul a {
+    color: #FCD937;
+    text-decoration: none;
+}
+header nav ul a:hover {
+    color: #895b87;
+}
+/* CSS button code from https://getcssscan.com/css-buttons-examples */
+.button {
+  background-color: #D733F4; 
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #c03483;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+header nav ul {
+    display: flex; 
+    align-items: center; 
+    gap: 90px;
+    margin-right: 15px;
+
+}
+.left, .right {
+    display: flex; 
+}
+header nav h1 {
+    margin-left: 15px;
+}
+.hero {
+ background-color: aliceblue; 
+} 
+.Gradient {
+    height: 400px;
+    background: rgb(255,255,255);
+    background: rgba(87,129,227,1);
+    display: flex;
+    gap: 95px; 
+    font-size: 200;
+}
+.Gradient P {
+    margin: 0;
+    font-size: 45px;
+    font-size: 3em;
+    text-align: center;
+}
+.White {
+    height: 400px;
+    text-align: left;
+    text-align-last:left;  
+    display: flex;
+    gap: 200px;
+    background-image:url("VV_\ home\ image.webp");
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.nostalgia {
+    height: 60px;
+    text-align: center;
+    color: #4D39AA;
+}
+.pop_culture { 
+    text-align: right;
+    color: #FF78F1;
+    margin-right: 15px;
+}
+.email {
+    text-align: center;
+    text-align-last: center;
+    color:#FCD937; 
+    font-display: flex;
+    row-gap: 50px;
+}
+footer{
+    font-size: 1rem;
+    padding: 1rem;
+    background-color: #204DB7;
+}
